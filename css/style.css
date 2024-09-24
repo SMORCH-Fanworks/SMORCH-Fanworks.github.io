@@ -1,0 +1,439 @@
+html {
+    background: rgba(43,43,43,1);
+    background-image: url(../img/bg.png);
+}
+
+body {
+    margin:0;
+    padding:0; 
+}
+
+p{
+    margin: 0px;
+    margin-bottom: 8px;
+}
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+/* ---  --- */
+
+.section-header { 
+    display: inline-block;
+    width: 88.7%;
+    height: 8%;
+    padding-left: 11.3%;
+    background: rgba(30, 30, 30, 1); 
+    outline: 1px solid rgba(17, 17, 17, 1);
+}
+
+.section-main { 
+    width: 89.3%;
+    height: 100%;
+    padding-left: 10.7%;
+    padding-top: 15px;
+}
+
+.section-content-main {
+    display: inline-block;
+    position: absolute;
+
+    width: 66%;
+    height: auto;
+    margin-left: 11%;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+
+    background: rgba(236, 228, 217, 1); 
+    outline: 1px solid rgba(26, 26, 26, 1);
+    box-shadow: 1px 3px 5px rgba(11, 11, 11, 0.5);
+    border-radius: 4px;
+}
+
+.page-nav {
+    width: 50%;
+    height: auto;
+    background: rgba(255, 228, 217, 0.2);
+    outline: 1px solid rgba(150, 63, 66, 0.2);
+    display: block;
+}
+
+.widget-nav { 
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    text-align: left;
+    background: rgba(33, 33, 33, 1); 
+    outline: 1px solid rgba(26, 26, 26, 1);
+    box-shadow: 1px 3px 5px rgba(11, 11, 11, 0.5);
+    border-radius: 4px;
+}
+
+.page-img {
+    width: 15rem; 
+    float: right;
+    display: inline;
+    padding: 7px;
+    padding-top: 0px;
+}
+
+.page-par-top {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.page-par {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+
+
+/* --- Особые стили --- */ 
+
+.bg-shadow-img { 
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 80%;
+}
+
+.bg-shadow-img-test { 
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 0%;
+    transform: translateX(-50%);
+    z-index: -1;
+    opacity: 80%;
+    background-image: url(../img/bg-shadow.png);
+}
+
+
+.img-logo {
+    height: 8%;
+    width: 10%;
+}
+
+.img-class {
+    position: relative;
+    opacity: 75%;
+    width: 15rem; 
+    float: right;
+}
+
+.page-hr {
+    background: rgba(150, 63, 66, 1);
+    border: none;
+    height: 1px;
+    display: block;
+}
+
+.page-com {
+    width: 50%;
+    min-width: 14rem;
+    height: auto;
+    background: rgba(255, 228, 217, 0.2);
+    outline: 1px solid rgba(150, 63, 66, 0.2);
+    display: block;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.page-stats {
+    width: 99%;
+    min-width: 14rem;
+    height: auto;
+    background: rgba(255, 228, 217, 0.4);
+    outline: 1px solid rgba(150, 63, 66, 0.2);
+    display: block;
+    padding: 4px;
+    padding-left: 7px;
+    border-radius: 0px;
+
+}
+
+.page-card {
+    width: 220px;
+    height: 113px;
+    background: rgba(255, 228, 217, 0.3);
+    background-image: url(../img/page-card-bg.png);
+    outline: 1px solid rgba(150, 63, 66, 0.2);
+    border-radius: 1px;
+    padding-top: 7px;
+    padding-left: 7px;
+    padding-right: 5px;
+    display: inline-block;
+    margin-left: 0.5%;
+    margin-top: 0.7%;
+}
+.page-card:hover {
+    text-decoration: underline;
+    background: rgba(236, 188, 178, 0.3);
+    background-image: url(../img/page-card-bg.png);
+}
+
+.page-card-img {
+    height: 110px;
+    opacity: 95%;
+    position: relative;
+    bottom: 0px;
+    left: 4px;
+}
+
+.spell-par {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.spell-text {
+    font-family: consolas;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 500;
+    margin-top: -7px;
+}
+
+.spell-hr {
+    background: rgba(150, 63, 66, 1);
+    border: none;
+    height: 1px;
+    display: block;
+    margin-top: -30px;
+
+}
+/* --- Шрифты --- */
+
+.page-text {
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.page-title-comm {
+    font-family: consolas;
+    font-size: 1.175rem;
+    line-height: 0.8;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.75;
+    position: relative;
+    bottom: 10px;
+}
+
+.spell-title {
+    font-family: consolas;
+    font-size: 1.4rem;
+    line-height: 0.7;
+    font-weight: 600;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.spell-comm {
+    font-family: consolas;
+    font-size: 1.1rem;
+    line-height: 0.8;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.75;
+    padding-bottom: 10px;
+}
+
+.spell-comm-skill {
+    font-family: consolas;
+    font-size: 1.1rem;
+    line-height: 0.8;
+    font-weight: 500;
+    font-style: italic;
+    opacity: 0.75;
+}
+
+.page-text a {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.page-text:hover a {
+    color: #5555B5;
+}
+
+.page-text-b {
+    font-family: consolas;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 500;
+}
+
+.page-text-b a {
+    text-decoration: underline;
+}
+.page-text:hover a {
+    color: #5555B5;
+}
+
+.page-title {
+    font-family: consolas;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    font-weight: 600;
+    text-align: left;
+}
+
+.page-subtitle {
+    font-family: consolas;
+    font-size: 1.25rem;
+    line-height: 0.7;
+    font-weight: 600;
+    text-align: left;
+    margin-top: -17px;
+}
+
+
+.page-nav-text {
+    font-family: consolas;
+    font-size: 1.2rem;
+    line-height: 1;
+    font-weight: 500;
+    background: rgba(255, 228, 217, 0.4);
+    border-radius: 0px;
+    padding: 3px;
+    margin: 0px;
+}
+.page-nav-text:hover {
+    background: rgba(255, 228, 217, 1);
+}
+
+
+.page-com-text {
+    font-family: consolas;
+    font-size: 1rem;
+    line-height: 1;
+    font-weight: 500;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.95);
+
+    background: rgba(255, 228, 217, 0.4);
+    border-radius: 0px;
+    padding: 3px;
+    margin: 0px;
+}
+.page-com-text a {
+    font-weight: bold;
+}
+.page-com-text:hover a {
+    text-decoration: underline;
+}
+
+.page-card-name {
+    font-family: consolas;
+    font-size: 1.35rem;
+    font-weight: 600;
+    text-align: left;
+    position: absolute;
+    z-index: 10;
+    /* text-shadow: 1px 2px 0px #E0CAC0; */
+}
+
+.page-stats-text {
+    font-family: consolas;
+    font-size: 1.1rem;
+    line-height: 1.1;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.95);
+    margin-top: 9px;
+}
+.page-stats-text a {
+    text-decoration: underline;
+}
+.page-stats-text:hover a {
+    color: #5555B5;
+}
+
+
+
+/*Табличные приколы*/
+
+.class-table {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    background: rgba(255, 228, 217, 0.4);
+    border: 1px solid #E5D0C5;
+    border-collapse: collapse;
+
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 2px;
+
+}
+
+
+.cltr:hover/*строчка таблицы*/ { 
+    background: #F0DDD3;
+}
+
+.cltt/*aka class-table-text*/ {
+    border: 1px solid #F0DDD3;
+    padding: 5px;
+    width: 10000px;
+    vertical-align: top;
+}
+
+
+.cltt-title {
+    border: 1px solid #E5D0C5;
+    padding: 5px;
+    width: auto;
+    font-weight: 700;
+}
+
+.cltt-skill a {
+    text-decoration: underline;
+}
+.cltt-skill:hover a {
+    color: #5555B5;
+}
+
+.scltt-lvl/*sub class table text*/ {
+    background: #E5D0C5;
+    border: 1px solid #E5D0C5;
+    padding-top: 5px;
+    vertical-align: top;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* Вспомоголки */
+/*
+    rgba(117, 48, 50, 1) — основной бордовый (хедер)
+    rgba(150, 63, 66, 1) — бордовый посветлее (аутлайн хедера)
+
+
+``` (Комментарий на страницу)
+<div class="page-com">
+    <p class="page-com-text">Комментарий: ля-ля-ля тополя
+</div><br>
+
+```
+
+
