@@ -55,7 +55,7 @@ a {
 }
 
 .page-nav {
-    width: 50%;
+    width: 60%;
     height: auto;
     background: rgba(255, 228, 217, 0.2);
     outline: 1px solid rgba(150, 63, 66, 0.2);
@@ -80,6 +80,15 @@ a {
     padding: 7px;
     padding-top: 0px;
 }
+
+.race-img {
+    width: 150px; 
+    float: right;
+    position: relative;
+    padding: 7px;
+    padding-top: 0px;
+}
+
 
 .page-par-top {
     height: auto;
@@ -199,7 +208,6 @@ a {
     width: 100%;
     display: inline-block;
     padding-top: 10px;
-    padding-bottom: 15px;
 }
 
 .spell-text {
@@ -222,7 +230,7 @@ a {
 
 .page-text {
     font-family: consolas;
-    font-size: 1.05rem;
+    font-size: 1.1rem;
     line-height: 1;
     font-weight: 500;
 }
@@ -278,7 +286,7 @@ a {
     font-family: consolas;
     font-size: 1.2rem;
     line-height: 1;
-    font-weight: 500;
+    font-weight: lighter;
 }
 
 .page-text-b a {
@@ -305,14 +313,12 @@ a {
     margin-top: -17px;
 }
 
-
 .page-nav-text {
     font-family: consolas;
     font-size: 1.2rem;
     line-height: 1;
     font-weight: 500;
     background: rgba(255, 228, 217, 0.4);
-    border-radius: 0px;
     padding: 3px;
     margin: 0px;
 }
@@ -395,8 +401,10 @@ a {
 .cltt/*aka class-table-text*/ {
     border: 1px solid #F0DDD3;
     padding: 5px;
+    padding-bottom: 10px;
     width: 10000px;
     vertical-align: top;
+    text-align: left;
 }
 
 
@@ -407,11 +415,21 @@ a {
     font-weight: 700;
 }
 
+.cltt-skill {
+    padding-bottom: 7px;
+}
 .cltt-skill a {
     text-decoration: underline;
 }
 .cltt-skill:hover a {
     color: #5555B5;
+}
+
+.cltt-lvl/*sub class table text*/ {
+    padding-top: 6px;
+    vertical-align: top;
+    font-weight: 500;
+    border: 1px solid #F0DDD3;
 }
 
 .scltt-lvl/*sub class table text*/ {
@@ -423,17 +441,211 @@ a {
     font-weight: 500;
 }
 
-/* Вспомоголки */
-/*
-    rgba(117, 48, 50, 1) — основной бордовый (хедер)
-    rgba(150, 63, 66, 1) — бордовый посветлее (аутлайн хедера)
+
+.bestiary-table {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    background: rgba(255, 228, 217, 0.4);
+    border: 1px solid #E5D0C5;
+    border-collapse: collapse;
+
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.bstrtt a {
+    text-decoration: underline;
+}
+.bstrtt:hover a {
+    color: #5555B5;
+}
+
+.bstrtt:hover/*строчка таблицы*/ { 
+    background: #F0DDD3;
+}
+
+.bstrtt/*aka bestiary-table-text*/ {
+    border: 1px solid #F0DDD3;
+    padding: 2px;
+    padding-left: 6px;
+    width: 10000px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.monster-table {
+    width: 48%;
+    height: auto;
+    display: block;
+
+    background: rgba(255, 228, 217, 0.4);
+    border: 1px solid #E5D0C5;
+    border-collapse: collapse;
+
+    font-weight: 0;
+    font-family: consolas;
+    font-size: 1.3rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.monster-cltt {
+    border: 1px solid #F0DDD3;
+    padding: 5px;
+    padding-bottom: 10px;
+    width: 8%;
+    vertical-align: top;
+    text-align: center;
+}
+.monster-cltt:hover/*строчка таблицы*/ { 
+    background: #F0DDD3;
+}
+
+.monster-stats {
+    font-family: consolas;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    font-weight: lighter;
+}
+
+.traits {
+    font-family: consolas;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    font-weight: lighter;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
+.monster-stats-par-top {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.monster-stats-par {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    padding-top: 12px;
+}
 
 
-``` (Комментарий на страницу)
-<div class="page-com">
-    <p class="page-com-text">Комментарий: ля-ля-ля тополя
-</div><br>
+.item-table {
+    width: 100%;
+    height: auto;
+    display: block;
 
-```
+    background: rgba(255, 228, 217, 0.4);
+    border: 1px solid #E5D0C5;
+    border-collapse: collapse;
+
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 1px;
+}
+
+.itemtt{
+    border: 1px solid #F0DDD3;
+    padding: 2px;
+    padding-left: 6px;
+    width: 10000px;
+    vertical-align: top;
+    text-align: left;
+}
+.itemtt a {
+    text-decoration: underline;
+}
+.itemtt:hover{ 
+    background: #F0DDD3;
+}
+
+.gear-table {
+    width: 100%;
+    height: auto;
+    margin-bottom: 22px;
+
+    background: rgba(255, 228, 217, 0.4);
+    border: 1px solid #E5D0C5;
+    border-collapse: collapse;
+
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1.2;
+    text-align: center;
+    border-radius: 1px;
+}
+.geartt{
+    border: 1px solid #F0DDD3;
+    padding: 2px;
+    padding-left: 8px;
+    vertical-align: top;
+    text-align: left;
+}
+.geartt-top { 
+    background: #F0DDD3;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 2px;
+    padding-left: 6px;
+    vertical-align: top;
+    text-align: left;
+}
+.geartt-title { 
+    border: 1px solid #F0DDD3;
+    padding: 2px;
+    padding-left: 25px;
+    vertical-align: top;
+    text-align: left;
+}
+.geartt-subtop { 
+    background: #F4E4D9;
+    font-weight: 100;
+    font-size: 1.05rem;
+    padding: 2px;
+    padding-left: 6px;
+    vertical-align: top;
+    text-align: left;
+    font-style: italic;
+}
+.geartr-top { 
+    background: #F0DDD3;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.geartr a {
+    text-decoration: underline;
+}
+.geartr:hover{ 
+    background: #F0DDD3;
+
+}
+.trlink:hover a {
+    color: #5555B5;
+}
+.geartr-title { 
+    background: none;
+    font-style: italic;
+    font-size: 1.1rem;
+}
+
+.gear-property {
+    font-family: consolas;
+    font-size: 1.05rem;
+    line-height: 1.1;
+    font-weight: lighter;
+    padding-top: 3px;
+    padding-bottom: 7px;
+}
+
 
 
