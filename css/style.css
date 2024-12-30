@@ -278,7 +278,7 @@ a {
     text-decoration: underline;
     font-weight: bold;
 }
-.page-text:hover a {
+.page-text a:hover {
     color: #5555B5;
 }
 
@@ -292,7 +292,7 @@ a {
 .page-text-b a {
     text-decoration: underline;
 }
-.page-text:hover a {
+.page-text a:hover {
     color: #5555B5;
 }
 
@@ -522,6 +522,13 @@ a {
     padding-top: 3px;
     padding-bottom: 7px;
 }
+.traits a {
+    text-decoration: underline;
+}
+.traits a:hover{
+    color: #5555B5;
+}
+
 
 .monster-stats-par-top {
     height: auto;
@@ -586,7 +593,8 @@ a {
 }
 .geartt{
     border: 1px solid #F0DDD3;
-    padding: 2px;
+    padding: 4px;
+
     padding-left: 8px;
     vertical-align: top;
     text-align: left;
@@ -602,7 +610,7 @@ a {
 }
 .geartt-title { 
     border: 1px solid #F0DDD3;
-    padding: 2px;
+    padding: 4px;
     padding-left: 25px;
     vertical-align: top;
     text-align: left;

@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="icon" type="image/png" href="../../img/logo.png">
+    <title>Классы/Колосс</title>
+
+</head>
+<body>
+<section class="section-header"><a href="../../index.html"><img src="../../img/logo.gif" class="img-logo"></a></section>
+
+<div class="section-main">
+<img class="bg-shadow-img" src="../../img/bg-shadow.png">
+<iframe src="../../widget/wd-nav.html" class="widget-nav" frameborder="0" scrolling="no"></iframe>
+  <div class="section-content-main">
+    <div class="page-par-top">
+        <p class="page-title" id="p0">Колосс</p>
+        <img src="../../img/test.jpg" class="img-class"><p class="page-text-b" >Колосс</p>
+<div class="page-nav" style="margin-top: 4%;">
+    <a href="#p0"><p class="page-nav-text">0. Колосс</p></a>
+    <a href="#p1"><p class="page-nav-text">1. Создание колосса</p></a>
+    <a href="#p2"><p class="page-nav-text">2. Классовые умения</p></a>
+    <a href="#p3"><p class="page-nav-text">3. Подклассы колосса</p></a>
+</div> 
+<div class="page-par"> <table class="class-table">
+  <tr class="cltr" style="background: #E5D0C5; border-color: #E5D0C5;">
+    <td class="cltt-title" style="width: 8%;">Уровень</td>
+    <td class="cltt-title" style="width: 10%;">Бонус<br>мастерства</td>
+    <td class="cltt-title">Классовые умения</td>
+    <td class="cltt-title" style="width: 10%;">Ячейки</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">1</td>
+    <td class="cltt-lvl">+2</td>
+    <td class="cltt"><text class="cltt-skill"><a href="#skill0">Крепкость</a></text></td>
+    <td class="cltt-lvl">2</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">2</td>
+    <td class="cltt-lvl">+2</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">3</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">3</td>
+    <td class="cltt-lvl">+3</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">4</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">4</td>
+    <td class="cltt-lvl">+3</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">4</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">5</td>
+    <td class="cltt-lvl">+4</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill"><a href="#skill1">Увеличение характеристик</a></td>
+    <td class="cltt-lvl">5</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">6</td>
+    <td class="cltt-lvl">+4</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</a></td>
+    <td class="cltt-lvl">7</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">7</td>
+    <td class="cltt-lvl">+5</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill"><a href="#skill2">Ярость колосса</a></td>
+    <td class="cltt-lvl">8</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">8</td>
+    <td class="cltt-lvl">+5</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">9</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">9</td>
+    <td class="cltt-lvl">+6</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">11</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">10</td>
+    <td class="cltt-lvl">+6</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">15</td>
+  </tr>
+  <tr class="cltr">
+    <td class="cltt-lvl">11</td>
+    <td class="cltt-lvl">+7</td>
+    <td class="cltt" style="text-align: left;"><text class="cltt-skill">—</td>
+    <td class="cltt-lvl">16</td>
+  </tr>
+</table> </div>
+
+<div class="page-par">
+<p class="page-title" id="p1">Создание ловкача</p>
+<hr class="page-hr">
+    <div class="page-stats">
+        <p class="page-title">Хиты, Владение и Снаряжение</p><br><br>
+        <p class="page-subtitle">ХИТЫ</p>
+            <p class="page-stats-text"><b>Кость хитов</b>: 1к12 за каждый уровень</p>
+            <p class="page-stats-text"><b>Хиты на 1 уровне</b>: 12 + мод Телосложение</p>
+            <p class="page-stats-text"><b>Хиты на следующих уровнях</b>: 1к12 (или 7) + модификатор Телосложения (суммарно минимум 1) за каждый уровень после первого</p> <br><br>
+        <p class="page-subtitle">ВЛАДЕНИЕ</p>
+            <p class="page-stats-text"><b>Доспехи</b>: Лёгкие, Средние, Тяжёлые доспехи</p>
+            <p class="page-stats-text"><b>Оружие</b>: Простое оружие, Продвинутое рукопашное оружие, Дробовики, Гранатомёты</p>
+            <p class="page-stats-text"><b>Спасброски</b>: Телосложение, Сила</p>
+            <p class="page-stats-text"><b>Навыки</b>: Атлетикиа, 2 на выбор.</p>
+            <p class="page-stats-text">Ваша основная характеристика — Телосложение или Сила.</p> <br><br>
+        <p class="page-subtitle">СНАРЯЖЕНИЕ</p>
+            <p class="page-stats-text">Вы начинаете со следующими предметами, добавленными в ваш инвентарь:</p>
+            <p class="page-stats-text">— а) Обрез или б) Револьвер </p>
+            <p class="page-stats-text">— Любое <a href="../items.html#p1">простое оружие</a></p>
+            <p class="page-stats-text">— 1 любой <a href="#">набор</a></p>
+            <p class="page-stats-text">— а) Тактическая броня или а) Титановая броня </p>
+    </div>
+</div>
+
+<div class="page-par">
+<p class="page-title" id="p2">Классовые умения</p><br>
+
+<p class="page-subtitle">Повышение уровня</p>
+<hr class="page-hr">
+    <p class="page-text">При переходе на новый уровень, ваш персонаж получает преимущества из таблицы Улучшения. Также, при переходе на новый уровень, ваш персонаж получает умение, соотвествующий уровню умения из списка ниже. </p>
+<div class="page-par">
+
+<div class="page-stats">
+<div class="page-par" style="margin-top: -10px"> <table class="class-table">
+  <tr class="cltr" style="background: #E5D0C5; border-color: #E5D0C5;">
+    <th class="cltt-title" style="width: 8%;">Уровень</td>
+    <th class="cltt-title">Улучшения</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">1</td>
+    <td class="cltt">1 Эволюция (Спец)</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">2</td>
+    <td class="cltt">1 очко Подклассов</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">3</td>
+    <td class="cltt">1 Эволюция (Ранг 1); 1 Эволюция (Спец)</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">4</td>
+    <td class="cltt">1 очко Подклассов; 1 Эволюция (Ранг 1)</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">5</td>
+    <td class="cltt">1 очко Подклассов; 1 Эволюция (Ранг 1)</td>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">6</td>
+    <td class="cltt">1 Эволюция (Ранг 2)</td>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">7</td>
+    <td class="cltt">1 очко Подклассов; Создание Ультимативного уникального заклинания</td>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">8</td>
+    <td class="cltt">1 очко Подклассов; 1 Эволюция (Ранг 2)</td>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">9</td>
+    <td class="cltt">1 очко Подклассов; Создание 1 дополнительного уникального заклинания, заговора или умения</td>
+  </tr>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">10</td>
+    <td class="cltt">1 очко Подклассов, 1 Эволюция (Ранг 3)</td>
+  </tr>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">11</td>
+    <td class="cltt">Атомос-Эволюция</td>
+  </tr>
+</table> </div>
+
+</div>
+<br><br><br><br>
+
+<div class="page-par" id="skill0">
+<p class="spell-title">Крепкость</p><br>
+<hr class="spell-hr">
+<p class="spell-comm-skill">Умение, 1 уровень</p>
+<div class="spell-par">
+    <p class="spell-text">Если ваши хиты опустились до нуля, но вы при этом не убиты, ваши хиты вместо этого опускаются до 1. Вы не можете использовать эту способность снова, пока не завершите продолжительный отдых. Также, при определении вашей грузоподъёмности, а также веса, который вы можете толкать, тянуть и поднимать, вы считаетесь существом на один размер больше.</p>
+</div></div>
+
+<div class="page-par" id="skill1">
+  <p class="spell-title">Увеличение характеристик </p><br>
+  <hr class="spell-hr">
+  <p class="spell-comm-skill">Умение, 5 уровень</p>
+  <div class="spell-par">
+    <p class="spell-text">При достижении 5-го, 7-го, 9-го, 10-го и 11-го уровней вы можете повысить значение одной из ваших характеристик на 1. Значение характеристики при этом не должно превысить 20. </p>
+  </div></div>
+
+<div class="page-par" id="skill2">
+  <p class="spell-title">Ярость колосса</p><br>
+  <hr class="spell-hr">
+  <p class="spell-comm-skill">Умение, 7 уровень</p>
+  <div class="spell-par">
+    <p class="spell-text">В любой момент боя, даже если вы без сознания, вы можете реакцией войти в состояние ярости на 18 секунд. Пока вы в ярости, вы получаете иммунитет к состояниям Испуганный, Оглохший, Ослеплённый, Отравленный, Очарованный, Ошеломлённый, Парализованный, Сбитый с ног и Схваченный, а также избавляетесь от них, если они у вас уже были. На время действия этого умения вы можете игнорировать эффекты состояний Бессознательный и Истощённый, но эффект продолжит действовать как обычно с момента окончания действия умения. Вы не можете использовать это умение повторно, пока не завершите продолжительный отдых. </p>
+</div></div>
+
+<div class="page-par">
+<p class="page-title" id="p3">Подклассы колосса</p>
+<hr class="page-hr">
+     <p class="page-text">В таблице ниже приведены способности его подклассов и уровни, начиная с которых их можно взять. Описание в таблицах является неполным и ознакомительным, и не может никак повлиять на игровой процесс. Для полного описания, перейдите на отдельную страницу, которая привязана к каждой способности.</p>
+
+<div class="page-par"> <table class="class-table">
+  <tr class="cltr" style="background: #E5D0C5; border-color: #E5D0C5;">
+    <th class="cltt-title" style="width: 8%;">Уровень</td>
+    <th class="cltt-title">&nbsp;</td>
+    <th class="cltt-title">Умения</td>
+    <th class="cltt-title">&nbsp;</td>
+  </tr>
+  <tr class="cltr" style="background: #E5D0C5;">
+    <th class="cltt-title" style="width: 8%;">&nbsp;</td>
+    <th class="cltt-title">Титан</td>
+    <th class="cltt-title">Джаггернаут</td>
+    <th class="cltt-title">Вандал</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">1</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill0">Страж</a></text>. Спровоцированными атаками вы блокируете движение цели и провоцируете её.</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-2.html#skill0">Пневмакулак</a></text>. Вы совершаете удар кулаком, который наносит фиксированный урон по зоне.</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-3.html#skill0">Основной элемент</a></text>. Вы получаете сопротивление одному типу урона на выбор, который теперь считается вашим основным Элементом, что повлияет на другие способности этой ветки.</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">2</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill1">Провокация</a></text>. Вы провоцируете несколько целей сразу. Спровоцированные цели атакуют с помехой всех существ, кроме вас.</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-3.html#skill1">Элементальный удар</a></text>. Вы совершаете рукопашную атаку или кидаете булыжник, которые наносят 3к10 урона вашим Основным эелементом.</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">3</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-2.html#skill1">Прилив крови</a></text>. Вы можете использовать кости хитов вне боя.</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+  </tr>
+    <tr class="cltr">
+    <td class="scltt-lvl">4</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill2">Хватка титана</a></text>. Вы можете использовать двуручное оружие одной рукой.</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-3.html#skill2">Укрепление</a></text>. Вы дробите в порошок камень, который держите в руках, что даст вам временные хиты и преимущество при спасбросках концентрации.</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">5</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><i>За одно очко развития класса вы получите следующие способности:</i><br><br>
+        <text class="cltt-skill"><a href="../spells/al-col-2.html#skill2">Артиллерия</a></text>. Вы получаете владение двумя видами тяжёлого оружия на выбор.<br><br>
+        <text class="cltt-skill"><a href="../spells/al-col-2.html#skill2">Изобретательные штыки</a></text>. Вы можете использовать рукопашное оружие закреплённое на дальнобойном также, как могли бы использовать, если бы просто держали его в руках.
+    </td>
+    <td class="cltt"><text class="cltt-skill"></td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">6</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill3">Круговой удар</a></text>. Ваша атака ближнего боя задевает существ вокруг вас.</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"></td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">7</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-2.html#skill3">Ракетный залп</a></text>. Вы создаёте самонаводящиеся ракеты, которыми можно атаковать сразу несколько целей.</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-3.html#skill3">Окаменение</a></text>. Вы заставляете вашу цель обратиться в камень.</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">8</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill4">Рукопашная агрессия</a></text>. Если при броске урона оружием вам на любой отдельной кости выпало 4 или меньше, то вы можете считать, что выпало 5.</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"></td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">9</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"></td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-3.html#skill4">Колоссальный элементаль</a></text>. Вы превращаетесь в огромного голема из камня. В этом состоянии ваш КЗ увеличен, вы получаете дополнительные временные хиты и можете бонусным действием бесплатно использовать Элемементальный удар.</td>
+  </tr>
+  <tr class="cltr">
+    <td class="scltt-lvl">10</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-1.html#skill5">Гравитационный коллапс</a></text>. Вы ударяете по земле с такой силой, что при ударе появляется волна, нарушающая гравитацию, что заставит существ вокруг зависнуть в воздухе.</td>
+    <td class="cltt"><text class="cltt-skill"><a href="../spells/al-col-2.html#skill4">Локальный апокалипсис</a></text>. Вы создаёте ядерный взрыв. Что ещё нужно для счастья?</td>
+    <td class="cltt"><text class="cltt-skill"></td>
+  </tr>
+</table> </div>
+
+
+</div>
+
+</div></body></html>

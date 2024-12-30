@@ -20,22 +20,42 @@
   <div class="section-content-main">
     <div class="page-par-top">
         <p class="page-title" id="p0">Предметы</p>
-        <p class="page-text-b">Броня, Оружие, Снаряжение, Артефакты.
+        <p class="page-text-b">Броня, Оружие, Снаряжение, Артефакты. Дальнобойное оружие совершает броски атак от Ловкости. Рукопашное оружие совершает броски атак от Силы и добавляет модификатор Силы к урону.
 
-    </div>
+<div class="page-com">
+    <p class="page-com-text">Совет: используйте сочетание клавиш Ctrl+F, чтобы найти конкретный предмет.</p>
+</div>
+
+</div>
 <div class="page-par">
     <div class="page-nav">
-        <a href="#p0"><p class="page-nav-text">0. Предметы</p></a>
         <a href="#p1"><p class="page-nav-text">1. Оружие</p></a>
         <a href="#p2"><p class="page-nav-text">2. Броня и щиты</p></a>
         <a href="#p3"><p class="page-nav-text">3. Снаряжение</p></a>
-        <a href="#p4"><p class="page-nav-text">4. Артефакты</p></a>
+        <a href="#p4"><p class="page-nav-text">4. Боеприпасы</p></a>
+        <a href="#p5"><p class="page-nav-text">5. Артефакты</p></a>
     </div> 
 </div>
 
 <div class="page-par">
 <p class="page-subtitle" id="p1">Оружие</p> 
 <hr class="page-hr">
+<p class="page-text">Всё рукопашное по умолчанию оружие использует Силу в качестве характеристики, добавляет модификатор Силы к урону и имеет досягаемость 5 фт. Всё дальнобойное оружие по умолчанию использует Ловкость в качестве характеристики.
+<div class="page-par">
+    <div class="page-stats">
+        <p class="gear-property" id="pr0"><b>Боекомплект</b>. Из оружия с этим свойством можно совершить ограниченное число выстрелов. После этого персонаж должен перезарядить его, зарядив необходимое количество определённого боеприпаса из инвентаря в оружие. Перезарядка бывает трёх типов: Простая, Обычная и Сложная. <br> Разные типы перезарядки требуют разных действий, а также несколько их видов, между которыми можно выбирать. Лёгкая перезарядка требует Бонусного действия или 10 передвижения. Обычная перезарядка требует Основного действия или 20 передвижения. Сложная перезарядка требует Основного действия и 25 передвижения одновременно. При наличии некоторых других свойств, вид перезарядки может быть не указан. Если тип перезарядки не указан, и оружия нет других свойств, которые с ним взаимодействуют, то считайте, что тип перезарядки Средний.</p>
+        <p class="gear-property" id="pr1"><b>Боеприпас</b>. Заряженные боеприпасы огнестрельного оружия уничтожаются в магазине при использовании. Также, указана дистанция дальше которой атаки совершаются с помехой и максимальная возможная дальность.</p>
+        <p class="gear-property" id="pr2"><b>Скорострельность</b>. Вы можете один раз в свой ход заменить одну из ваших атак этим на стрельбу очередью. Вместо этой атаки, совершите количество атак не более значения Скорострельности оружия, которым вы атакуете.</p>
+        <p class="gear-property" id="pr3"><b>Универсальное</b>. Это оружие можно использовать как одной, так и двумя руками. Урон, указанный в скобках после этого свойства, означает урон при совершении рукопашной атаки двумя руками.</p>
+        <p class="gear-property" id="pr4"><b>Удобство</b>. Оружие с этим свойством имеет постоянный бонус к броскам атаки.</p>
+        <p class="gear-property" id="pr5"><b>Двуручное</b>. Это оружие нужно держать двумя руками, когда вы атакуете им. Двуручное оружие не блокирует использование соматического компонента заклинаний.</p>
+        <p class="gear-property" id="pr6"><b>Фехтовальное</b>. При совершении атаки фехтовальным оружием вы сами выбираете, какой модификатор использовать при совершении бросков атаки и урона — модификатор Силы или Ловкости. Для обоих бросков должен использоваться один и тот же модификатор.</p>
+        <p class="gear-property" id="pr7"><b>Метательное</b>. Если у оружия есть свойство «метательное», вы можете совершать им дальнобойные атаки, метая его. Если это рукопашное оружие, вы используете для бросков атаки и урона тот же модификатор характеристики, что и при совершении рукопашной атаки этим оружием.  </p>
+        <p class="gear-property" id="pr8"><b>Досягаемость</b>. Это оружие добавляет 5 футов к расстоянию, на котором вы можете совершать этим оружием атаки, а также провоцированные атаки. </p>
+        <p class="gear-property" id="pr9"><b>Улучшенные криты</b>. Атаки этим оружием совершают критическое попадание при выпадении «19» или «20» на кости атаки. </p>
+        <p class="gear-property" id="pr10"><b>Бензопила</b>. В неактивном состоянии бензопила наносит урон, указанный в скобках. Бензопилу можно активировать бонусным действием. Бензопилой в активном состоянии можно совершить атаку 30 раз, после чего его необходимо заправить, потратив 0,5 литров бензина. При пустом топливном баке бензопила деактивируется и не может быть активирована снова, пока не будет заправлена. </p>
+        <p class="gear-property" id="pr10"><b>Снаряд</b>. Броски атаки этим оружием совершаются с помехой по целям, которые находятся в пределах 5 футов от вас. Восполнение снарядов необходимых для дальнобойных атак этим оружием производится как часть действия атаки, если у вас есть специальный подсумок, колчан или ремень для их хранения.</p>
+    </div> </div>
 
 <div><table class="gear-table">
 <p class="page-text-b">Простое оружие:</p>
@@ -43,25 +63,117 @@
     <td class="geartt-top" width="17%">Название</td>
     <td class="geartt-top" width="8%">Урон</td>
     <td class="geartt-top" width="47%">Свойства</td>
-    <td class="geartt-top" width="7.5%">Вес (кг)</td>
-    <td class="geartt-top" width="7.5%">Цена (зм)</td>
+    <td class="geartt-top" width="7.5%">Вес (фнт)</td>
+    <td class="geartt-top" width="7.5%">Цена (днг)</td>
 </tr>
 <tr class="geartr-top">
     <td class="geartt-subtop" colspan="5">Рукопашное оружие:</td>
 </tr>
+
 <tr class="geartr">
     <td class="geartt-title">Дубинка</td>
-    <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
+    <td class="geartt">1к4+1</td>
+    <td class="geartt">—</td>
+    <td class="geartt">1</td>
+    <td class="geartt">50</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Труба</td>
+    <td class="geartt">1к4+1</td>
+    <td class="geartt">—</td>
+    <td class="geartt">1</td>
+    <td class="geartt">20</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Молоток</td>
+    <td class="geartt">1к4+1</td>
+    <td class="geartt">Метательное (дис. 20/60)</td>
+    <td class="geartt">1</td>
     <td class="geartt">100</td>
 </tr>
 <tr class="geartr">
-    <td class="geartt-title">Бита</td>
+    <td class="geartt-title">Кинжал</td>
     <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
+    <td class="geartt">Фехтовальное, Удобство (+1)</td>
+    <td class="geartt">1</td>
+    <td class="geartt">70</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Метательный нож</td>
+    <td class="geartt">1к4</td>
+    <td class="geartt">Фехтовальное, Метательное (дис. 40/80), Снаряд</td>
+    <td class="geartt">0.5</td>
+    <td class="geartt">20</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Гаечный ключ</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Универсальное (1к8)</td>
+    <td class="geartt">2</td>
     <td class="geartt">100</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Длинная палка</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Универсальное (1к8)</td>
+    <td class="geartt">4</td>
+    <td class="geartt">50</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Бита</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Универсальное (1к8)</td>
+    <td class="geartt">4</td>
+    <td class="geartt">50</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Топор</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Универсальное (1к8), Метательное (дис. 20/60)</td>
+    <td class="geartt">2</td>
+    <td class="geartt">100</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Копьё</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Универсальное (1к8), Метательное (дис. 30/70)</td>
+    <td class="geartt">2</td>
+    <td class="geartt">100</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Большая труба</td>
+    <td class="geartt">1к8+1</td>
+    <td class="geartt">Двуручное</td>
+    <td class="geartt">4</td>
+    <td class="geartt">40</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Грабли</td>
+    <td class="geartt">1к8+1</td>
+    <td class="geartt">Двуручное</td>
+    <td class="geartt">3</td>
+    <td class="geartt">90</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Дорожный знак</td>
+    <td class="geartt">1к8+1</td>
+    <td class="geartt">Двуручное</td>
+    <td class="geartt">3</td>
+    <td class="geartt">90</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Длинное копьё</td>
+    <td class="geartt">1к8</td>
+    <td class="geartt">Двуручное, Досягаемость, Метательное (дис. 20/60)</td>
+    <td class="geartt">3</td>
+    <td class="geartt">150</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Лопата</td>
+    <td class="geartt">1к8+1</td>
+    <td class="geartt">Двуручное, Метательное (дис. 20/60)</td>
+    <td class="geartt">3</td>
+    <td class="geartt">90</td>
 </tr>
 <tr class="geartr-top">
     <td class="geartt-subtop" colspan="5">Дальнобойное оружие:</td>
@@ -69,18 +181,48 @@
 <tr class="geartr">
     <td class="geartt-title">Пистолет</td>
     <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
+    <td class="geartt">Боекомплект (12/Мелкий/Простая), Боеприпас (дист. 50/150), <br> Удобство (+1)</td>
+    <td class="geartt">2</td>
+    <td class="geartt">300</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Пистолет-пулемёт</td>
+    <td class="geartt">1к4</td>
+    <td class="geartt">Боекомплект (20/Мелкий/Обычная), Боеприпас (дист. 50/150), Скорострельность (4), Удобство (-2) </td>
+    <td class="geartt">2</td>
+    <td class="geartt">550</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Револьвер</td>
+    <td class="geartt">1к4</td>
+    <td class="geartt">Боекомплект (6/Средняя/Обычная), Боеприпас (дист. 60/180), <br> Удобство (+1) </td>
+    <td class="geartt">2</td>
+    <td class="geartt">300</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Короткий лук</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Боекомплект (1/Стрела/Простая), Боеприпас (дист. 60/240), Снаряд </td>
+    <td class="geartt">2</td>
+    <td class="geartt">170</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Обрез</td>
-    <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Дробь/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
+    <td class="geartt">2к6</td>
+    <td class="geartt">Боекомплект (2/Дробь/Обычная), Боеприпас (дист. 20/60) </td>
+    <td class="geartt">5</td>
+    <td class="geartt">250</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Двустволка</td>
+    <td class="geartt">2к6</td>
+    <td class="geartt">Двуручное, Боекомплект (2/Дробь/Обычная), Боеприпас (дист. 120/240) </td>
+    <td class="geartt">6</td>
+    <td class="geartt">350</td>
 </tr>
 </table></div>
+
+
 
 <div><table class="gear-table">
 <p class="page-text-b">Продвинутое оружие:</p>
@@ -88,25 +230,60 @@
     <td class="geartt-top" width="17%">Название</td>
     <td class="geartt-top" width="8%">Урон</td>
     <td class="geartt-top" width="47%">Свойства</td>
-    <td class="geartt-top" width="7.5%">Вес (кг)</td>
-    <td class="geartt-top" width="7.5%">Цена (зм)</td>
+    <td class="geartt-top" width="7.5%">Вес (фнт)</td>
+    <td class="geartt-top" width="7.5%">Цена (днг)</td>
 </tr>
 <tr class="geartr-top">
     <td class="geartt-subtop" colspan="5">Рукопашное оружие:</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Катана</td>
-    <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
+    <td class="geartt">1к8+2</td>
+    <td class="geartt">Двуручное, Улучшенные криты</td>
+    <td class="geartt">3</td>
+    <td class="geartt">800</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Двуручный меч</td>
-    <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
+    <td class="geartt">1к10</td>
+    <td class="geartt">Двуручное, Улучшенные криты</td>
+    <td class="geartt">6</td>
+    <td class="geartt">700</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Кувалда</td>
+    <td class="geartt">1к12+1</td>
+    <td class="geartt">Двуручное</td>
+    <td class="geartt">8</td>
+    <td class="geartt">700</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Глефа</td>
+    <td class="geartt">1к10</td>
+    <td class="geartt">Двуручное, Досягаемость</td>
+    <td class="geartt">6</td>
+    <td class="geartt">850</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Пика</td>
+    <td class="geartt">1к10</td>
+    <td class="geartt">Двуручное, Досягаемость</td>
+    <td class="geartt">6</td>
+    <td class="geartt">850</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Сабля</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Улучшенные криты, Фехтовальное</td>
+    <td class="geartt">2</td>
+    <td class="geartt">450</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Рапира</td>
+    <td class="geartt">1к6</td>
+    <td class="geartt">Улучшенные криты, Фехтовальное</td>
+    <td class="geartt">2</td>
+    <td class="geartt">450</td>
 </tr>
 <tr class="geartr-top">
     <td class="geartt-subtop" colspan="5">Дальнобойное оружие:</td>
@@ -114,7 +291,7 @@
 <tr class="geartr">
     <td class="geartt-title">Винтовка</td>
     <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
+    <td class="geartt">Боекомплект (12/Мелкий/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
     <td class="geartt">0.8</td>
     <td class="geartt">100</td>
 </tr>
@@ -133,20 +310,27 @@
     <td class="geartt-top" width="17%">Название</td>
     <td class="geartt-top" width="8%">Урон</td>
     <td class="geartt-top" width="47%">Свойства</td>
-    <td class="geartt-top" width="7.5%">Вес (кг)</td>
-    <td class="geartt-top" width="7.5%">Цена (зм)</td>
+    <td class="geartt-top" width="7.5%">Вес (фнт)</td>
+    <td class="geartt-top" width="7.5%">Цена (днг)</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Безопила</td>
+    <td class="geartt">3к6</td>
+    <td class="geartt">Рукопашное, Двуручное, Бензопила (1к6) </td>
+    <td class="geartt">8</td>
+    <td class="geartt">1270</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Арбалет</td>
     <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
+    <td class="geartt">Боекомплект (12/Мелкий/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
     <td class="geartt">0.8</td>
     <td class="geartt">100</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Снайперская винтовка</td>
     <td class="geartt">1к4</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
+    <td class="geartt">Боекомплект (12/Мелкий/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
     <td class="geartt">0.8</td>
     <td class="geartt">100</td>
 </tr>
@@ -159,7 +343,7 @@
     <td class="geartt-top" width="8%">Урон</td>
     <td class="geartt-top" width="47%">Свойства</td>
     <td class="geartt-top" width="7.5%">Вес (кг)</td>
-    <td class="geartt-top" width="7.5%">Цена (зм)</td>
+    <td class="geartt-top" width="7.5%">Цена (днг)</td>
 </tr>
 <tr class="geartr">
     <td class="geartt-title">Ракетница</td>
@@ -169,19 +353,19 @@
     <td class="geartt">100</td>
 </tr>
 </table></div>
-
 </div>
-<div class="page-par">
-<div class="page-stats">
-    <p class="gear-property" id="pr0"><b>Боекомплект</b>. Из оружия с этим свойством можно совершить ограниченное число выстрелов. После этого персонаж должен перезарядить его, зарядив необходимое количество определённого боеприпаса из инвентаря в оружие. Перезарядка бывает трёх видов: Простая, Обычная и Сложная. <br> Разные виды перезарядки требуют разных действий, а также несколько их видов, между которыми можно выбирать. Лёгкая перезарядка требует Бонусного действия или 10 передвижения. Обычная перезарядка требует Основного действия или 20 передвижения. Сложная перезарядка требует Основного действия и 25 передвижения одновременно.
-    <p class="gear-property" id="pr0"><b>Боеприпас</b>. Заряженные боеприпасы огнестрельного оружия уничтожаются в магазине при использовании.
-    <p class="gear-property" id="pr0"><b> </b>. 
-</div> </div>
 
 
 <div class="page-par">
 <p class="page-subtitle" id="p2">Броня и щиты</p> 
 <hr class="page-hr">
+
+<div class="page-par">
+<div class="page-stats">
+    <p class="gear-property" id="pr0"><b>Тяжёлый</b>. Скорость владельца снижена на 10, если показатель Силы владельца ниже указанного в скобкаъ.
+    <p class="gear-property" id="pr0"><b>Помеха скрыности</b>. Используя эту броню, владелец совершает проверки Скрытности с помехой.
+    <p class="gear-property" id="pr0"><b>Экзоскелет</b>. Гидравлика экзоскелета позволяет компенсировать огромный вес брони и дополнительно увличивает грузоподъёмность. Когда вы носите экзоскелет, ваша максимальная грузоподъёмность увеличивается на 85 фунтов. 
+</div> </div>
 
 <div><table class="gear-table">
 <p class="page-text-b">Броня и щиты:</p>
@@ -189,18 +373,73 @@
     <td class="geartt-top" width="17%">Название</td>
     <td class="geartt-top" width="15%">Защита</td>
     <td class="geartt-top" width="40%">Свойства</td>
-    <td class="geartt-top" width="7.5%">Вес (кг)</td>
-    <td class="geartt-top" width="7.5%">Цена (зм)</td>
+    <td class="geartt-top" width="7.5%">Вес (фнт)</td>
+    <td class="geartt-top" width="7.5%">Цена (днг)</td>
 </tr>
 <tr class="geartr-top">
-    <td class="geartt-subtop" colspan="5">Бронежилеты:</td>
+    <td class="geartt-subtop" colspan="5">Лёгкий доспех:</td>
 </tr>
 <tr class="geartr">
-    <td class="geartt-title">Кевларовый броежилет</td>
+    <td class="geartt-title">Кожаный</td>
     <td class="geartt">11 + мод Ловкости</td>
-    <td class="geartt">Боекомплект (12/Мелкий патрон/Простая), <text class="trlink"><a href="#pr0">Боеприпас</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
+    <td class="geartt">—</td>
+    <td class="geartt">10</td>
+    <td class="geartt">400</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Проклёпанный кожаный</td>
+    <td class="geartt">12 + мод Ловкости</td>
+    <td class="geartt">—</td>
+    <td class="geartt">13</td>
+    <td class="geartt">550</td>
+</tr>
+<tr class="geartr-top">
+    <td class="geartt-subtop" colspan="5">Средний доспех:</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Тактический</td>
+    <td class="geartt">13 + мод Ловкости (макс. 2)</td>
+    <td class="geartt">—</td>
+    <td class="geartt">20</td>
+    <td class="geartt">1100</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Композитный</td>
+    <td class="geartt">14 + мод Ловкости (макс. 2)</td>
+    <td class="geartt">—</td>
+    <td class="geartt">25</td>
+    <td class="geartt">1400</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Пластинчатый</td>
+    <td class="geartt">15 + мод Ловкости (макс. 2)</td>
+    <td class="geartt">—</td>
+    <td class="geartt">35</td>
+    <td class="geartt">3800</td>
+</tr>
+<tr class="geartr-top">
+    <td class="geartt-subtop" colspan="5">Тяжёлый доспех:</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Титановый</td>
+    <td class="geartt">16</td>
+    <td class="geartt">Тяжёлый (13), Помеха скрытности</td>
+    <td class="geartt">55</td>
+    <td class="geartt">700</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Углепластиковый</td>
+    <td class="geartt">17</td>
+    <td class="geartt">—</td>
+    <td class="geartt">45</td>
+    <td class="geartt">24800</td>
+</tr>
+<tr class="geartr">
+    <td class="geartt-title">Экзоскелет</td>
+    <td class="geartt">18</td>
+    <td class="geartt">Тяжёлый (15), Экзоскелет, Помеха скрытности</td>
+    <td class="geartt">65</td>
+    <td class="geartt">6700</td>
 </tr>
 <tr class="geartr-top">
     <td class="geartt-subtop" colspan="5">Щиты:</td>
@@ -212,21 +451,9 @@
     <td class="geartt">0.8</td>
     <td class="geartt">100</td>
 </tr>
-<tr class="geartr">
-    <td class="geartt-title">Тактический щит</td>
-    <td class="geartt">3</td>
-    <td class="geartt"><text class="trlink"><a href="#pr0">Пуленепробиваемый</a></text>, </td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
-</tr>
 </table></div>
 
-<div class="page-par">
-<div class="page-stats">
-    <p class="gear-property" id="pr0"><b>Боекомплект</b>. Из оружия с этим свойством можно совершить ограниченное число выстрелов. После этого персонаж должен перезарядить его, зарядив необходимое количество определённого боеприпаса из инвентаря в оружие. Перезарядка бывает трёх видов: Простая, Обычная и Сложная. <br> Разные виды перезарядки требуют разных действий, а также несколько их видов, между которыми можно выбирать. Лёгкая перезарядка требует Бонусного действия или 10 передвижения. Обычная перезарядка требует Основного действия или 20 передвижения. Сложная перезарядка требует Основного действия и 25 передвижения одновременно.
-    <p class="gear-property" id="pr0"><b>Боеприпас</b>. Заряженные боеприпасы огнестрельного оружия уничтожаются в магазине при использовании.
-    <p class="gear-property" id="pr0"><b> </b>. 
-</div> </div>
+
 
 </div>
 
@@ -235,36 +462,52 @@
 <p class="page-subtitle" id="p3">Снаряжение</p> 
 <hr class="page-hr">
 
-<div> <table class="gear-table" style="width: 70%;">
 <p class="page-text-b">Прочие предметы:</p>
-<tr class="geartr-top">
-    <td class="geartt-top" width="36%">Название</td>
-    <td class="geartt-top" width="7%">Вес (кг)</td>
-    <td class="geartt-top" width="7%">Цена (зм)</td>
-</tr>
-<tr class="geartr">
-    <td class="geartt-title"><text class="trlink"><a href="#i0">Пеньковая верёвка</a></text></td>
-    <td class="geartt">0.8</td>
-    <td class="geartt">100</td>
-</tr>
-</table></div>
-
-<div class="page-com">
-    <p class="page-com-text">Не забывайте, что во всех браузерах есть сочетание клавиш Ctrl+F, с помощью которого искать нужный предмет намного легче.</p>
-</div>
+<div class="page-par"> <table class="bestiary-table">
+    <tr>
+      <td class="bstrtt" width="33%"><a href="#i0"><div>Верёвка</div></a></td>
+      <td class="bstrtt" width="33%"><a href="#i"><div>Посох агонима</div></a></td>
+      <td class="bstrtt" width="33%"><a href="#i"><div>Refresher</div></a></td>
+    </tr>
+    <tr>
+        <td class="bstrtt" width="33%"><a href="#i"><div>Верёвка</div></a></td>
+        <td class="bstrtt" width="33%"><a href="#i"><div>Посох агонима</div></a></td>
+        <td class="bstrtt" width="33%"><a href="#i"><div>Refresher</div></a></td>
+      </tr>
+  </table> </div>
 
 <div class="page-par">
 <div class="page-stats">
-    <p class="gear-property" id="i0"><b>Пеньковая верёвка</b>. Она верёвка и из пеньков плейсхолдер.
-</div> </div>
+    <p class="gear-property" id="i0"><b>Верёвка</b>. Моток верёвки длиной 50 футов, сделанной из волокна (150 денег, 10 фунтов).
+</div> </div> </div>
+
 
 <div class="page-par">
-<p class="page-subtitle" id="p1">Артефакты</p> 
+    <p class="page-subtitle" id="p4">Боеприпасы</p> 
+    <hr class="page-hr">
+    
+    <div> <table class="gear-table" style="width: 70%;">
+        <tr class="geartr-top">
+            <td class="geartt-top" width="26%">Название</td>
+            <td class="geartt-top" width="12%">Кол-во в упаковке</td>
+            <td class="geartt-top" width="12%">Цена (днг/шт)</td>
+        </tr>
+        <tr class="geartr">
+            <td class="geartt-title"><text class="trlink"><a href="#i0">Пеньковая верёвка</a></text></td>
+            <td class="geartt">0.8</td>
+            <td class="geartt">100</td>
+        </tr>
+        </table></div>
+</table> </div>
+
+
+<div class="page-par">
+<p class="page-subtitle" id="p5">Артефакты</p> 
 <hr class="page-hr">
 
 <div class="page-par"> <table class="bestiary-table">
   <tr>
-    <td class="bstrtt" width="33%"><a href="monsters/huekrad.html"><div>Мина Течеса</div></a></td>
+    <td class="bstrtt" width="33%"><a href="spells/artefacts.html#it0"><div>Мина Течеса</div></a></td>
     <td class="bstrtt" width="33%"><a href="#"><div>Посох агонима</div></a></td>
     <td class="bstrtt" width="33%"><a href="#"><div>Refresher</div></a></td>
   </tr>
