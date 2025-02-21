@@ -459,7 +459,7 @@ a {
 }
 
 .bstrtt a {
-    text-decoration: underline;
+    text-decoration: none;
 }
 .bstrtt:hover a {
     color: #5555B5;
@@ -512,6 +512,13 @@ a {
     font-size: 1.2rem;
     line-height: 1.6;
     font-weight: lighter;
+}
+
+.monster-img {
+    height: 250px; 
+    display: inline;
+    padding: 5px;
+
 }
 
 .traits {
