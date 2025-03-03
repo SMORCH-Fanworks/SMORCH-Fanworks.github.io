@@ -276,7 +276,7 @@ a {
 
 .page-text a {
     text-decoration: underline;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 .page-text a:hover {
     color: #5555B5;
