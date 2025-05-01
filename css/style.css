@@ -673,3 +673,12 @@ a {
     margin-top: -7px;
 }
 
+.bg-tbl {
+    padding-bottom: 7px;
+}
+.bg-tbl a {
+    text-decoration: underline;
+}
+.bg-tbl:hover a {
+    color: #5555B5;
+}
